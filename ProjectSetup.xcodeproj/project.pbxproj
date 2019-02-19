@@ -13,7 +13,6 @@
 		E633C4CA221BDB1C008DA41C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E633C4C9221BDB1C008DA41C /* Assets.xcassets */; };
 		E633C4CD221BDB1C008DA41C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E633C4CB221BDB1C008DA41C /* LaunchScreen.storyboard */; };
 		E633C4D8221BDB1C008DA41C /* ProjectSetupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E633C4D7221BDB1C008DA41C /* ProjectSetupTests.swift */; };
-		E633C4E3221BDB1C008DA41C /* ProjectSetupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E633C4E2221BDB1C008DA41C /* ProjectSetupUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +44,6 @@
 		E633C4D7221BDB1C008DA41C /* ProjectSetupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSetupTests.swift; sourceTree = "<group>"; };
 		E633C4D9221BDB1C008DA41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E633C4DE221BDB1C008DA41C /* ProjectSetupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectSetupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E633C4E2221BDB1C008DA41C /* ProjectSetupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectSetupUITests.swift; sourceTree = "<group>"; };
-		E633C4E4221BDB1C008DA41C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +76,6 @@
 			children = (
 				E633C4C1221BDB1A008DA41C /* ProjectSetup */,
 				E633C4D6221BDB1C008DA41C /* ProjectSetupTests */,
-				E633C4E1221BDB1C008DA41C /* ProjectSetupUITests */,
 				E633C4C0221BDB1A008DA41C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,15 +110,6 @@
 				E633C4D9221BDB1C008DA41C /* Info.plist */,
 			);
 			path = ProjectSetupTests;
-			sourceTree = "<group>";
-		};
-		E633C4E1221BDB1C008DA41C /* ProjectSetupUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E633C4E2221BDB1C008DA41C /* ProjectSetupUITests.swift */,
-				E633C4E4221BDB1C008DA41C /* Info.plist */,
-			);
-			path = ProjectSetupUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E633C4E3221BDB1C008DA41C /* ProjectSetupUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
